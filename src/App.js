@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavigationBar navValue={getNavValue} />
-        {text == "ibra" ? <img src={logo} className="App-logo" alt="logo" /> : ""}
+        {text == "baim" ? <img src={logo} className="App-logo" alt="logo" /> : "Apa Yaaa..."}
         <h5>{text}</h5>
         <input type="text" className="text" placeholder="type here!" onChange={(typing) => setText(typing.target.value)} />
         <button onClick={() => changeNavValue()} style={{ marginTop: 15, padding: 10, borderRadius: 15 }}>
